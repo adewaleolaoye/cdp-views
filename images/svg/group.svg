@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="117" viewBox="0 0 100 117">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#6D6D6D" font-family="Montserrat-Medium, Montserrat" font-size="9" font-weight="400" letter-spacing=".563">
+            <tspan x="15.742" y="115">Upload Logo</tspan>
+        </text>
+        <rect width="99" height="99" x=".5" y=".5" fill="#D8D8D8" stroke="#979797" rx="8"/>
+        <g fill-rule="nonzero">
+            <path fill="#4D4D4D" d="M68.667 56.667v-20c0-1.834-1.5-3.334-3.334-3.334h-20A3.343 3.343 0 0 0 42 36.667v20C42 58.5 43.5 60 45.333 60h20c1.834 0 3.334-1.5 3.334-3.333zM51 50.883l2.717 3.634 4.3-5.367a.833.833 0 0 1 1.3 0l4.933 6.167a.83.83 0 0 1-.65 1.35H47a.833.833 0 0 1-.667-1.334l3.334-4.45a.846.846 0 0 1 1.333 0zm-15.667-9.216v21.666c0 1.834 1.5 3.334 3.334 3.334h21.666c.917 0 1.667-.75 1.667-1.667s-.75-1.667-1.667-1.667h-20c-.916 0-1.666-.75-1.666-1.666v-20c0-.917-.75-1.667-1.667-1.667s-1.667.75-1.667 1.667z"/>
+            <path d="M32 30h40v40H32z"/>
+        </g>
+    </g>
+</svg>

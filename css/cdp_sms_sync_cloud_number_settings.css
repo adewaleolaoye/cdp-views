@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #4d4d4d;
+}
+
+.title {
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  /* color: #4d4d4d; */
+  color: white;
+  /* margin: 0 0 1.25rem 6.6875rem; */
+}
+
+.settings {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.33;
+  color: #4d4d4d;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: column;
+  padding: 2.1875rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mobile,
+.app-name {
+  font-size: 1rem;
+  letter-spacing: 0.3px;
+  color: #4d4d4d;
+}
+
+ul li.mobile {
+  margin: 0.8125rem 0 1.625rem 0;
+}
+
+.delivery-report,
+.forward-inbound {
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #4d4d4d;
+}
+
+ul.report,
+ul.forward-SMS {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0 0.625rem 0 0.5rem;
+}
+
+ul.forward-SMS {
+  margin-top: 1.1875rem;
+}
+
+li.toggle-section-2,
+li.toggle-section-3 {
+  margin-right: -0.5rem;
+}
+
+/* TOGGLE SECTION */
+/* toggle-selection 1 = off (red background) */
+/* toggle-selection-2 and 3 = on (white background) */
+
+.toggle-section-1 input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.toggle-section-1 label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 2.125rem;
+  height: 0.875rem;
+  border-radius: 7px;
+  background-color: rgba(255, 37, 0, 0.6);
+  height: 0.875rem;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+.toggle-section-1 label:after {
+  content: "";
+  position: absolute;
+  top: -20%;
+  left: 70%;
+  width: 1.25rem;
+  height: 1.25rem;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), inset 0 0 1px 0 rgba(0, 0, 0, 0.3);
+  background-color: #ff2500;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.toggle-section-1 input:checked + label:after {
+  background-color: #f1f1f1;
+}
+.toggle-section-1 input:checked + label {
+  background-color: #f1f1f1;
+}
+
+input:checked + label:after {
+  left: calc(100% - 70%);
+  transform: translateX(-100%);
+}
+
+li.toggle-section-1 {
+  margin-right: 10px;
+}
+
+.toggle-section-2 input[type="checkbox"],
+.toggle-section-3 input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.toggle-section-2 label,
+.toggle-section-3 label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 2.125rem;
+  height: 0.875rem;
+  border-radius: 7px;
+  background-color: #f1f1f1;
+  height: 0.875rem;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+.toggle-section-2 label:before,
+.toggle-section-3 label:before {
+  content: "";
+  position: absolute;
+  top: -20%;
+  right: 70%;
+  width: 1.25rem;
+  height: 1.25rem;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), inset 0 0 1px 0 rgba(0, 0, 0, 0.3);
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.toggle-section-2 input:checked + label::before,
+.toggle-section-3 input:checked + label::before {
+  background-color: rgba(255, 37, 0, 0.6);
+}
+
+.toggle-section-2 input:checked + label,
+.toggle-section-3 input:checked + label {
+  background-color: rgba(255, 37, 0, 0.6);
+}
+
+input:checked + label::before {
+  right: calc(100% - 70%);
+  transform: translateX(100%);
+}
+/* toggle end */
+
+.enable-option {
+  width: 22.3125rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.1px;
+  color: #9d9d9d;
+  margin-left: 16px;
+  display: inline-block;
+}
+
+/* button */
+p.text-right {
+  text-align: right;
+  margin-top: 16px;
+}
+
+/* image anchor link, input line */
+.edit-url {
+  margin: 20px 0;
+}
+
+.text-line {
+  width: 23.125rem;
+  height: 1.875rem;
+  background-color: transparent;
+  color: #4d4d4d;
+  outline: none;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid #4d4d4d 1.5px;
+  display: none;
+}
+
+.text-line::placeholder {
+  height: 24px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.url {
+  width: 288px;
+  height: 15px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #6d6d6d;
+  margin-right: 4px;
+  margin-left: 8px;
+}
+
+img.link,
+img.edit {
+  width: 19px;
+  height: 19px;
+}
+
+img.edit {
+  cursor: pointer;
+}

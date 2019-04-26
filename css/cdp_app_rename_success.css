@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.Rename_Success_dialog {
+  width: 27.4375rem;
+  height: 13.0625rem;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1.5rem 1.5rem 0 rgba(0, 0, 0, 0.3), 0 0 24px 0 rgba(0, 0, 0, 0.22);
+}
+
+.success-msg {
+  width: 22.5625rem;
+  height: 1rem;
+  font-size: 0.8125rem;
+  color: #4d4d4d;
+  margin-top: 0.3125rem;
+}
+
+.rename-success {
+  padding: 2.125rem;
+  display: flex;
+  flex-direction: column;
+}
+
+button.btn {
+  align-self: flex-end;
+  margin-top: 4.625rem;
+}

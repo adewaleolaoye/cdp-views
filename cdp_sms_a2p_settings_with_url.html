@@ -1,0 +1,74 @@
+<!-- CDP_SMS_A2P_Settings_With_URL -->
+<link rel="stylesheet" href="css/sms.css" />
+<script src="js/lib/jquery/jquery.js"></script>
+
+<span class="title-1"> SMS / Apps / A2P Settings </span>
+<span class="title-2" style="display:none"> SMS / Apps </span>
+
+<div class="card">
+  <div class="main-card">
+    <span class="settings"> A2P SMS Settings </span>
+
+    <ul class="icon-apps">
+      <img class="icon-holder" src="images/svg/dot-circle.svg" alt="" />
+      <span class="app-name"> App One </span>
+    </ul>
+
+    <ul class="report a2p">
+      <li class="delivery-report">Delivery-Report</li>
+      <li class="toggle-section-1">
+        <input type="checkbox" class="cb-value" id="switch-1" />
+        <label for="switch-1">Toggle</label>
+      </li>
+    </ul>
+    <div class="enable">
+      <span class="enable-this-option"
+        >Enable this option to forward delivery statuses to your website URL</span
+      >
+    </div>
+
+    <!-- input -->
+    <div class="delivery-endpoint">
+      <img class="link" src="images/svg/icons8-link.png" alt="" />
+
+      <span class="domain-name">
+        https://service.example.com/messaging/report
+      </span>
+
+      <img class="edit" src="images/svg/ic-twotone-edit.svg" alt="" />
+
+      <!-- <input type="text" class="text-line" placeholder="" /> -->
+    </div>
+
+    <!-- button -->
+    <div class="two-buttons">
+      <button class="back">Back</button>
+      <button type="submit" class="save" style="display: none">Save</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/cdp_sms_a2p_settings_with_url.js"></script>
+<script>
+  $(document).ready(function() {
+    // edit url
+    $(".edit").on("click", () => {
+      $(".domain-name").attr("contentEditable", true);
+      $(".title-1, img.link, .edit").hide();
+      $("button.back").addClass("d-none");
+      $("button.save, .text-line, .title-2").show();
+    });
+    // save url
+    $(".save").on("click", function(e) {
+      e.preventDefault();
+      let websiteURL = $(".domain-name").text();
+      console.log(websiteURL);
+    });
+    // toggle switch
+    // $("toggle-section-1").on("click", function(e) {
+    //   if ($(this).prop("checked")) {
+    //     return;
+    // });
+    // if($(this).prop)
+  });
+</script>

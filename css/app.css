@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* cdp_rename */
+
+.Rename_dialog {
+  width: 27.4375rem;
+  height: 15.5rem;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 24px 24px 0 rgba(0, 0, 0, 0.3), 0 0 24px 0 rgba(0, 0, 0, 0.22);
+}
+
+.rename {
+  padding: 41px 40px;
+}
+
+.Rename-App {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: #4d4d4d;
+}
+
+.text-line {
+  width: 22.5rem;
+  height: 2rem;
+  background-color: transparent;
+  color: #4d4d4d;
+  outline: none;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid #4d4d4d 1.5px;
+  margin-top: 1.5625rem;
+}
+
+.two-buttons {
+  float: right;
+}
+
+button.btn {
+  margin: 2.59375rem 0 3.5rem 0;
+}
+
+/* cdp_rename_success */
+.Rename_Success_dialog {
+  width: 27.4375rem;
+  height: 13.0625rem;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1.5rem 1.5rem 0 rgba(0, 0, 0, 0.3), 0 0 24px 0 rgba(0, 0, 0, 0.22);
+}
+
+.rename-success {
+  padding: 2.125rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.success-msg {
+  width: 22.5625rem;
+  height: 1rem;
+  font-size: 0.8125rem;
+  color: #4d4d4d;
+  margin-top: 0.3125rem;
+}
+
+button.btn {
+  align-self: flex-end;
+  margin-top: 4.625rem;
+}
+
+/* cdp_app_sms_snippet */
+.app-sms-snippet-dialog {
+  width: 27.4375rem;
+  height: 22.3125rem;
+}
+
+.app-sms-snippet {
+  border-radius: 0.125rem;
+  box-shadow: 0 1.5rem 1.5rem 0 rgba(0, 0, 0, 0.3), 0 0 1.5rem 0 rgba(0, 0, 0, 0.22);
+  background-color: #ffffff;
+  padding: 41px 41px 50px 41px;
+  width: 358px;
+}
+
+.snippet-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.snippet-title {
+  width: 10.9375rem;
+  height: 1.75rem;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #4d4d4d;
+}
+
+.copy-the-code {
+  width: 22.3125rem;
+  font-size: 0.6875rem;
+  font-weight: 300;
+  line-height: 1.36;
+  color: #4d4d4d;
+  margin: 0.1875rem 0 1rem 0;
+}
+
+.display-API {
+  width: 357px;
+  height: 156px;
+  border-radius: 3px;
+  background-color: #4d4d4d;
+  margin-bottom: 19px;
+}
+
+button.close {
+  float: right;
+}
+
+/* cdp_app_update */
+.app_update_success {
+  width: 27.375rem;
+  height: 14.0625rem;
+  border-radius: 0.125rem;
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+  background: #ffffff;
+}
+
+.app_update_content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 39px 39px 38px;
+}
+
+.done {
+  width: 14.0625rem;
+  height: 2rem;
+  line-height: 1.33;
+  font-size: 1.5rem;
+  color: #4d4d4d;
+}
+
+.app-information {
+  width: 22.5625rem;
+  font-size: 14px;
+  text-align: center;
+  color: #4d4d4d;
+  margin: 2.75rem 0;
+}
+
+.update-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button.goto_apps {
+  margin: 0 0 0 10px;
+}

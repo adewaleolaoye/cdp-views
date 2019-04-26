@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.Rename_dialog {
+  width: 27.4375rem;
+  height: 15.5rem;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 24px 24px 0 rgba(0, 0, 0, 0.3), 0 0 24px 0 rgba(0, 0, 0, 0.22);
+}
+
+.rename {
+  padding: 41px 40px;
+}
+
+.Rename-App {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: #4d4d4d;
+}
+
+.text-line {
+  width: 22.5rem;
+  height: 2rem;
+  background-color: transparent;
+  color: #4d4d4d;
+  outline: none;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid #4d4d4d 1.5px;
+  margin-top: 1.5625rem;
+}
+
+.two-buttons {
+  float: right;
+}
+
+button {
+  margin: 2.59375rem 0 3.5rem 0;
+}

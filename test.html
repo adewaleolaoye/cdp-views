@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .select {
+        display: inline-block;
+        padding: 3px 9px;
+        border: 1px solid #4d4d4d;
+        min-width: 69px;
+      }
+
+      .select::after {
+        content: "";
+        position: absolute;
+        /* border: 2px solid #444444; */
+        border-left: 8px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 11px solid black;
+        margin-left: 17px;
+        margin-top: 3px;
+      }
+    </style>
+    <div class="select"></div>
+  </body>
+</html>

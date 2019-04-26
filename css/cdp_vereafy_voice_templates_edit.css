@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #4d4d4d;
+}
+
+.CDP_Vereafy_Voice_Templates_Edit_Section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+span.voice-template {
+  align-self: flex-start;
+  margin: 0px 2.5rem 2.5rem 5rem;
+  width: 11.5rem;
+  height: 1.125rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #4d4d4d;
+}
+
+.main-card {
+  width: 38.4375rem;
+  height: 22.375rem;
+  border-radius: 0.125rem;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+  border-style: solid;
+  border-width: 0.03125rem;
+  border-image-source: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0) 80%,
+    rgba(0, 0, 0, 0.02) 95%,
+    rgba(0, 0, 0, 0.04)
+  );
+  border-image-slice: 1;
+  background-image: #ffffff,
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0) 80%,
+      rgba(0, 0, 0, 0.02) 95%,
+      rgba(0, 0, 0, 0.04)
+    );
+  background-origin: border-box;
+  background: #ffffff;
+}
+
+.main-card-content {
+  padding: 1.875rem 2.1875rem;
+}
+
+.create-template {
+  width: 14.0625rem;
+  height: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #4d4d4d;
+}
+
+.text-line {
+  width: 33.75rem;
+  height: 1.875rem;
+  border: solid 0.125rem #4d4d4d;
+  background-color: transparent;
+  color: #4d4d4d;
+  outline: none;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 1.75rem 0px;
+}
+
+input.text-line:nth-of-type(2) {
+  margin-bottom: 1.875rem;
+}
+
+.select-app {
+  width: 4.875rem;
+  height: 1.125rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #4d4d4d;
+  margin-right: 1.125rem;
+}
+
+input::placeholder {
+  width: 7.125rem;
+  height: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.38);
+}
+/* select.menu-bg {
+  width: 128px;
+  height: 32px;
+} */
+/* .menu-bg {
+  width: 128px;
+  height: 136px;
+  border-radius: 2px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 0 8px 0 rgba(0, 0, 0, 0.12);
+  background-color: #fafafa;
+} */
+
+/* div.btn {
+  align-self: flex-end;
+} */
+
+div.btn {
+  float: right;
+  margin-top: 1.5625rem;
+}
+
+.btn a {
+  width: 3.875rem;
+  height: 1.125rem;
+  border-radius: 1.125rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.03125rem;
+  text-align: center;
+  color: #ffffff;
+  background: #ff2500;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
+
+.new {
+  display: flex;
+  align-items: center;
+}
+/* dropdown */
+
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none;
+  /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: #ffffff;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 0.875rem;
+  right: 0.625rem;
+  width: 0;
+  height: 0;
+  border: 0.375rem solid transparent;
+  border-color: #4d4d4d transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #4d4d4d transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,
+.select-selected {
+  color: #4d4d4d;
+  padding: 0.5rem 1rem;
+  /* border: 1px solid transparent; */
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 0 8px 0 rgba(0, 0, 0, 0.12);
+  background-color: #fafafa;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: #ffffff;
+  top: 100%;
+  left: 0;
+  right: 0;
+  /* z-index: 99; */
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+  background-color: #eeeeee;
+}

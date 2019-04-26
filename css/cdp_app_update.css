@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.app_update_success {
+  width: 27.375rem;
+  height: 14.0625rem;
+  border-radius: 0.125rem;
+  box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+  background: #ffffff;
+}
+
+.app_update_content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 39px 39px 38px;
+}
+
+.done {
+  width: 14.0625rem;
+  height: 2rem;
+  line-height: 1.33;
+  font-size: 1.5rem;
+  color: #4d4d4d;
+}
+
+.app-information {
+  width: 22.5625rem;
+  font-size: 14px;
+  text-align: center;
+  color: #4d4d4d;
+  margin: 2.75rem 0;
+}
+
+.update-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button.goto_apps {
+  margin: 0 0 0 10px;
+}
